@@ -30,6 +30,8 @@ class Settings(aigpy.model.ModelBase):
             if item.name == value:
                 return item
         return AudioQuality.Normal
+    
+    self.audioQuality = self.getAudioQuality(self.audioQuality)
 
     def read(self):
         api_index, _ = set_db.get_variable("TIDAL_API_KEY_INDEX")
