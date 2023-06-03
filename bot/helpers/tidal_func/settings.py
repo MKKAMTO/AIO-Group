@@ -14,12 +14,12 @@ class Settings(aigpy.model.ModelBase):
     saveCovers = True
     language = 0
     lyricFile = False
-    apiKeyIndex = 4
+    apiKeyIndex = 1
     showProgress = False
     showTrackInfo = True
     saveAlbumInfo = False
     downloadPath = Config.DOWNLOAD_BASE_DIR + "/tidal"
-    audioQuality = AudioQuality.Master
+    audioQuality = AudioQuality.Normal
     usePlaylistFolder = True
     albumFolderFormat = R"{ArtistName}/{Flag} {AlbumTitle} [{AlbumID}] [{AlbumYear}]"
     trackFileFormat = R"{TrackNumber} - {ArtistName} - {TrackTitle}{ExplicitFlag}"
