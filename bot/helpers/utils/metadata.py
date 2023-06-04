@@ -7,6 +7,8 @@ from bot.logger import LOGGER
 from mutagen import File
 from config import Config
 from mutagen.mp4 import MP4
+
+from mutagen.m4a import M4A
 from mutagen import flac, mp4
 from mutagen.mp3 import EasyMP3
 from mutagen.flac import FLAC
