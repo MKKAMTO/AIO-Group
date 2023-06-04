@@ -9,7 +9,7 @@ from config import Config
 from mutagen.mp4 import MP4
 
 from mutagen.m4a import M4A
-from mutagen import flac, mp4
+from mutagen import flac, mp4 ,m4a
 from mutagen.mp3 import EasyMP3
 from mutagen.flac import FLAC
 from mutagen.id3 import TALB, TCOP, TDRC, TIT2, TPE1, TRCK, APIC, \
